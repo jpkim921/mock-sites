@@ -1,7 +1,25 @@
 * {
-  margin: 0;
+  margin: 5px 0;
   box-sizing: border-box;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Muli', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.display-flex-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.display-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+/*     align-items: center; */
 }
 
 /* font-family: 'Roboto Mono', monospace;
@@ -14,7 +32,6 @@ font-family: 'Work Sans', sans-serif; */
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 0 15px;
@@ -36,7 +53,122 @@ div img {
 .nav-links a {
   margin: 0 5px;
   color: black;
-  font-family: "Roboto", sans-serif;
   font-weight: bold;
   text-decoration: none;
+}
+
+#start-account-section {
+  padding: 50px 100px;
+  text-align: center;
+}
+
+#start-account-section > * {
+  margin: 15px;
+}
+
+#start-account-section h1 {
+  font-size: 2.5em;
+}
+
+.button {
+	background-color:#3d94f6;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:1em;
+	font-weight:bold;
+	padding:15px 20px;
+	text-decoration:none;
+}
+
+.button:hover {
+	background-color:#1e62d0;
+}
+
+#contact-sales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: .9em;
+}
+
+#contact-sales > * {
+  margin: 0 2px;
+}
+
+#start-account-section div a {
+  color: #3d94f6;
+  text-decoration: none;
+}
+
+div#placeholder {
+  width: 1016px;
+  height: 513px;
+  background: #eee;
+  margin: 0 auto;
+}
+
+#learn-more {
+  text-align: center;
+  color: #fff;
+  background-color: #405cc7;
+  padding: 100px 0;
+}
+
+#learn-more p, h1,a {
+  font-family: inherit;
+  width: 650px;
+  margin-top: 15px;
+}
+
+#learn-more a {
+  text-decoration: none;
+  color: #fff;
+}
+
+
+.placeholder {
+  width: 350px;
+  height: 280px;
+  background-color: #eee;
+}
+
+.text-right {
+  width: 35%;   
+  padding-left: 80px;
+}
+
+.text-right > * {
+  margin: 20px 0;
+}
+.text-right h3 {
+  font-size: 1.6em;
+}
+
+.text-right a:last-child {
+  text-decoration: none;
+  color: #405cc7;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+
+.text-left {
+  width: 35%;   
+  padding-right: 80px;
+}
+
+.text-left > * {
+  margin: 20px 0;
+}
+.text-left h3 {
+  font-size: 1.6em;
+}
+
+.text-left a:last-child {
+  text-decoration: none;
+  color: #405cc7;
+  font-weight: bold;
+  font-size: 1.1em;
 }
