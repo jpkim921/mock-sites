@@ -4,11 +4,6 @@
   font-family: 'Muli', sans-serif;
 }
 
-/* body {
-  display: flex;
-  flex-direction: column;
-} */
-
 
 .display-flex-column {
   display: flex;
@@ -182,3 +177,40 @@ div#placeholder {
   font-weight: bold;
   font-size: 1.1em;
 }
+
+#hardware {
+  background-color: #eee;
+}
+#hardware-text-container {
+  text-align: center;
+  color: #fff;
+  /* background-color: #405cc7; */
+  padding: 50px 0;
+  width: 100%;
+}
+
+#hardware-text-container * {
+  margin: auto;
+  
+}
+
+#hardware-text-container p {
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#hardware-text-container h1, p {
+  color: black;
+}
+
+#hardware-text-container a {
+  text-decoration: none;
+}
+
+.tile-service {
+  text-align: center;
+  font-size: 0.8em;
+  width: 20%;
+}
+
