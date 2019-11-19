@@ -214,3 +214,22 @@ div#placeholder {
   width: 20%;
 }
 
+#business-solutions-segment{
+  background-color: #eee;
+}
+
+.tile-solution {
+  padding-left:5px;
+  padding-right:5px;
+  text-align: center;
+  width: 20%;
+  background-color: white;
+}
+
+.tile-solution img {
+  width: 90%;
+}
+
+.tile-solution a {
+  margin: 10px;
+}
